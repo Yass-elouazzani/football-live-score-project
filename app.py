@@ -3,8 +3,6 @@ import pytz
 from datetime import datetime, timedelta
 from colorama import Fore, Style, init
 from parse_standings import botola_standings
-from dotenv import load_dotenv
-import os
 from requests.exceptions import RequestException
 
 load_dotenv()
@@ -13,7 +11,7 @@ load_dotenv()
 init(autoreset=True)
 
 # API token
-API_TOKEN = os.getenv('API_TOKEN')
+API_TOKEN = b13919c0f3eb4b35b41048c60d0c7eb9
 BASE_URL = 'https://api.football-data.org/v2/'
 
 HEADERS = {
