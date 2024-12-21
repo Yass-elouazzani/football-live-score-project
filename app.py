@@ -5,13 +5,13 @@ from colorama import Fore, Style, init
 from parse_standings import botola_standings
 from requests.exceptions import RequestException
 
-load_dotenv()
+
 
 # colorama
 init(autoreset=True)
 
 # API token
-API_TOKEN = b13919c0f3eb4b35b41048c60d0c7eb9
+API_TOKEN = 'b13919c0f3eb4b35b41048c60d0c7eb9'
 BASE_URL = 'https://api.football-data.org/v2/'
 
 HEADERS = {
